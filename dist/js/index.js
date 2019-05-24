@@ -6,7 +6,7 @@
             url: url,
             type: 'GET',
             success: function (data) {
-                // console.log(data[0]);
+                console.log(data);
                 root.init(data);
                 // console.log(root.BindEvent)
                 new root.BindEvent(root.audio, data).bindEvent();
