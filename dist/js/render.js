@@ -3,6 +3,7 @@
         console.log(data.image);
         data = data[0] || data;
         var img = new Image();
+        console.log(data.image);
         img.src = data.image;
         img.onload = function () {
             $('.img img').attr('src', data.image);
